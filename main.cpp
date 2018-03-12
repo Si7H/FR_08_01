@@ -8,10 +8,10 @@ string DivideCheck(const string &inputNumber)
 	{
 		if(!(static_cast<int>(inputNumber[i] - 48) % 2))
 		{
-			return "TAK";
+			return "Tak";
 		}
 	}
-	return "NIE";
+	return "Nie";
 }
 
 
